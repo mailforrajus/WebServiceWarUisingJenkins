@@ -15,7 +15,7 @@ public class WebserviceExampleApplication {
 
 	@RequestMapping(value = "/getMessage")
 	public String getMessage() {
-		return "welcome to first Spring Boot Application";
+		return "welcome to first Spring Boot Application With jenkins";
 	}
 
 }
