@@ -22,7 +22,7 @@ public class WebserviceExampleApplication extends SpringBootServletInitializer {
 
 	@RequestMapping(value = "/getServiceMethod")
 	public String getHellowowrldMessage() {
-		return "This is the first sommit from Gt and then Job will start automcatically in Jnkins";
+		return "This is the first commit from Git and then Job will start automcatically in Jenkins";
 	}
 
 }
