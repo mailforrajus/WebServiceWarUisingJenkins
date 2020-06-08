@@ -20,7 +20,7 @@ public class WebserviceExampleApplication extends SpringBootServletInitializer {
 	}
 
 
-	@RequestMapping(value = "/getMessage")
+	@RequestMapping(value = "/getServiceMethod")
 	public String getHellowowrldMessage() {
 		return "This is the first sommit from Gt and then Job will start automcatically in Jnkins";
 	}
