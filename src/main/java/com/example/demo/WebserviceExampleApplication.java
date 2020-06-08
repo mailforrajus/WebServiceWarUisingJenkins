@@ -19,4 +19,10 @@ public class WebserviceExampleApplication extends SpringBootServletInitializer {
 		return "welcome to first Spring Boot Application With jenkins";
 	}
 
+
+	@RequestMapping(value = "/getMessage")
+	public String getHellowowrldMessage() {
+		return "This is the first sommit from Gt and then Job will start automcatically in Jnkins";
+	}
+
 }
