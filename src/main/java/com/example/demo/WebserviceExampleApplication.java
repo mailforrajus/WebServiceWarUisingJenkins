@@ -19,6 +19,11 @@ public class WebserviceExampleApplication extends SpringBootServletInitializer {
 		return "welcome to first Spring Boot Application With jenkins";
 	}
 
+	@RequestMapping(value = "/getMessage1")
+	public String getMessage1() {
+		return "welcome to first Spring Boot Application With jenkins";
+	}
+
 
 	@RequestMapping(value = "/getServiceMethod")
 	public String getHellowowrldMessage() {
