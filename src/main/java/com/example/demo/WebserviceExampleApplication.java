@@ -30,4 +30,9 @@ public class WebserviceExampleApplication extends SpringBootServletInitializer {
 		return "This is the first commit from Git and then Job will start automcatically in Jenkins";
 	}
 
+	@RequestMapping(value = "/getHellowowrldMessages")
+	public String getHellowowrldMessages() {
+		return "This is the first commit from Git and then Job will start automcatically in Jenkins";
+	}
+	
 }
