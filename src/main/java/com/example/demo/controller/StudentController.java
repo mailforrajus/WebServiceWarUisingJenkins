@@ -24,5 +24,10 @@ public class StudentController {
 
 		return listINfo;
 	}
+	
+	@RequestMapping("/printInfo")
+	public void print() {
+		System.out.println("welcome to spring boot with Jenkins ans onsar qube");
+	}
 
 }
