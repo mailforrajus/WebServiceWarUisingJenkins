@@ -1,44 +1,39 @@
 package com.example.demo.entity;
 
 public class StudentBean {
-	private int employeeId;
-	private String employeeName;
-	private double salary;
+	private int studentID;
+	private String studentName;
+	private double studentMarks;
 
-	public int getEmployeeId() {
-		return employeeId;
-	}
-
-	public void setEmployeeId(int employeeId) {
-		this.employeeId = employeeId;
-	}
-
-	public String getEmployeeName() {
-		return employeeName;
-	}
-
-	public void setEmployeeName(String employeeName) {
-		this.employeeName = employeeName;
-	}
-
-	public double getSalary() {
-		return salary;
-	}
-
-	public void setSalary(double salary) {
-		this.salary = salary;
-	}
-
-	@Override
-	public String toString() {
-		return "StudentBean [employeeId=" + employeeId + ", employeeName=" + employeeName + ", salary=" + salary + "]";
-	}
-
-	public StudentBean(int employeeId, String employeeName, double salary) {
+	public StudentBean(int studentID, String studentName, double studentMarks) {
 		super();
-		this.employeeId = employeeId;
-		this.employeeName = employeeName;
-		this.salary = salary;
+		this.studentID = studentID;
+		this.studentName = studentName;
+		this.studentMarks = studentMarks;
+	}
+
+	public int getStudentID() {
+		return studentID;
+	}
+
+	public void setStudentID(int studentID) {
+		this.studentID = studentID;
+	}
+
+	public String getStudentName() {
+		return studentName;
+	}
+
+	public void setStudentName(String studentName) {
+		this.studentName = studentName;
+	}
+
+	public double getStudentMarks() {
+		return studentMarks;
+	}
+
+	public void setStudentMarks(double studentMarks) {
+		this.studentMarks = studentMarks;
 	}
 
 	public StudentBean() {
