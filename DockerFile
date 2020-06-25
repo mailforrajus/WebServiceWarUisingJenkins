@@ -7,4 +7,4 @@ EXPOSE 8080
 ADD target/SpringBoot-Sonar-Docker.jar SpringBoot-Sonar-Docker.jar
 
 # Run the jar file 
-ENTRYPOINT ["java","-jar","SpringBoot-Sonar-Docker.jar"]
+ENTRYPOINT ["java","-jar","/SpringBoot-Sonar-Docker.jar"]
