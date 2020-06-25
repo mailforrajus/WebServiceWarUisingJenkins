@@ -21,7 +21,7 @@ public class StudentController {
 		List<StudentBean> listINfo = new ArrayList<>();
 		for (int i = 0; i <= 10; i++) {
 
-			studentInfo = new StudentBean(i + 100, "Govind", (i + 5) * 2);
+			studentInfo = new StudentBean(i + 100, "Govind", (i + 5) * 2.0);
 			listINfo.add(studentInfo);
 		}
 
