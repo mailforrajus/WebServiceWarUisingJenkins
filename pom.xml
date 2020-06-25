@@ -48,5 +48,4 @@
 		<finalName>SpringBoot-Sonar-Docker</finalName>
 	</build>
 
-	<packaging>war</packaging>
 </project>
