@@ -45,7 +45,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
-		<finalName>SpringBoot-Sonar-Docker</finalName>
+		<finalName>springboot-sonar-docker</finalName>
 	</build>
 
 </project>
